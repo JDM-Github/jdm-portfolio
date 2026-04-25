@@ -2,12 +2,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Mail, Menu, X } from 'lucide-react';
-import { FaGithub, FaYoutube, FaFacebook, FaFileAlt } from 'react-icons/fa';
+import { FaGithub, FaYoutube, FaFacebook } from 'react-icons/fa';
 
 const navItems = [
 	{ label: 'Home', to: '/' },
 	{ label: 'Projects', to: '/projects' },
 	{ label: 'Stack', to: '/stack' },
+	{ label: 'Resume', to: '/resume' },
 	{ label: 'Contact', to: '/contact' },
 ];
 
@@ -16,7 +17,6 @@ const socials = [
 	{ icon: FaYoutube, href: 'https://youtube.com/@jdmaster888', label: 'YouTube', color: '#ff6b6b' },
 	{ icon: FaFacebook, href: 'https://facebook.com/jdmaster888', label: 'Facebook', color: '#60a5fa' },
 	{ icon: Mail, href: 'mailto:jdmaster888@gmail.com', label: 'Email', color: '#34d399' },
-	{ icon: FaFileAlt, href: '/resume', label: 'Resume', color: '#fbbf24' },
 ];
 
 export function Nav() {

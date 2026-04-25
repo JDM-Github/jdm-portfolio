@@ -380,7 +380,7 @@ function PdfLoading({ color }: { color: string }) {
 }
 
 // ─── error state ──────────────────────────────────────────────────────────────
-function PdfError({ color, label, path }: { color: string; label: string; path: string }) {
+function PdfError({ label }: { color: string; label: string; path: string }) {
     return (
         <div style={{
             display: 'flex', flexDirection: 'column', alignItems: 'center',
@@ -408,7 +408,7 @@ function PdfError({ color, label, path }: { color: string; label: string; path: 
                     fontSize: '0.62rem', color: 'rgba(255,255,255,0.2)',
                     lineHeight: 1.6,
                 }}>
-                    Place your file at <span style={{ color: `${color}60` }}>public{path}</span> to display it here.
+                    Unavailable
                 </div>
             </div>
         </div>

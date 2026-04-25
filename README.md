@@ -1,17 +1,14 @@
-# Glass Portfolio
+# JDMaster Portfolio
 
-A dark glass-morphism portfolio with animated GitHub repository fetching.
+> Full‑stack & embedded developer portfolio — John Dave C. Pega (JDMaster)
 
-## Features
-- Animated glass-morphism UI
-- GitHub API integration with caching (10 minutes)
-- Responsive grid layout with framer-motion animations
-- Stats strip, tech stack showcase, featured projects
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38BDF8?logo=tailwindcss)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-10-0055FF?logo=framer)](https://www.framer.com/motion/)
 
-## Setup
+A modern, interactive portfolio website showcasing my work, tech stack, resume, and contact form. Features dynamic canvas backgrounds, GitHub repository integration, embedded PDF viewer, and a fully functional email system.
 
-1. Replace `your-username` in `src/lib/constant.ts` with your GitHub username
-
-2. Install dependencies:
-```bash
-npm install
+🔗 **Live** https://jdmaster.netlify.app/
+<iframe src="https://jdmaster.netlify.app/" width="100%" height="600"></iframe>
